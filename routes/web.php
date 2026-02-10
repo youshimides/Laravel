@@ -9,3 +9,6 @@ Route::get('/', function () {
 
 
 Route::get('/second',[MainController::class,'show1']);
+
+Route::get('/', [MainController::class, 'showIndex'])-> name('home');
+Route::get('/', [MainController::class, 'showArray'])-> name('home');

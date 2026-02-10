@@ -21,6 +21,7 @@
     </head>
     <body>
         <h1 class="text-white text-3xl italic">Hello world!</h1>
-        <a href="/second">Вторая страница</a>
+        <a href="/second">Массивы</a>
+        <a href="/home"> home</a>
     </body>
 </html>
