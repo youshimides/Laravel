@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@import "flowbite/plugin";
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -31,3 +33,26 @@ body{
   .product-card img {
       height: auto;
   }
+
+  @custom-variant dark (@media(prefers-color-scheme:dark));
+
+
+@theme{
+    --color-main: #42f5b9;
+    --color-accent: #facdf6;
+    --color-brand-50: #f542e6;
+    --color-brand-100: #faa2f3;
+    --color-brand-200: #fa96f2;
+    --color-brand-300: #fc7cf2;
+    --color-brand-400: #f567e9;
+    --color-brand-500: #f542e6;
+    --color-brand-600: #ed34de;
+    --color-brand-700: #fa28e9;
+    --color-brand-800: #f71be6;
+    --color-brand-900: #fa05e7;
+
+    --text-32: 2rem;
+    --gap-my: 60px;
+
+
+}

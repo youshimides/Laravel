@@ -22,6 +22,15 @@
             <p>yeat</p>
         </div>
 
+        <div class="bg-blue-600 text-blue-950 dark:text-white dark:bg-black">
+            <p class="bg-main">Пример</p>
+        </div>
+        <div class="bg-brand-50">
+            <p class="text-32">fun</p>
+        </div>
+
+
+        
     </main>
 
     <footer>
