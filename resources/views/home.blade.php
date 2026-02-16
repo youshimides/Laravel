@@ -8,28 +8,22 @@
 </head>
 <body>
     <header class=" bg-lime-400">
-        <p>Главная</p>
-        <p>Массивы</p>
+       
     </header>
 
                 <li><a href="{{ route('home') }}">Главная</a></li>
                 <li><a href="{{ route('array') }}">Массивы</a></li>
-        <!-- <div>
-            <img src="{{ Vite::asset('resources/images/after.png') }}" alt="">
-            <p>afterlyfe</p>
-        </div>
+         <main>
+        <h1>Альбомы</h1>
+    
+    
         <div>
-            <img src="{{ Vite::asset('resources/images/2093.png') }}" alt="">
-            <p>2093</p>
+            <img src="{{ Vite::asset('resources/images/logo.jpg') }}" alt="logo" width="250">
+            <p>yeat</p>
         </div>
-        <div>
-            <img src="{{ Vite::asset('resources/images/dangerous.png') }}" alt="">
-            <p>dangerous</p>
-        </div>
-        <div>
-            <img src="{{ Vite::asset('resources/images/up.png') }}" alt="">
-            <p>up2me</p>
-        </div> -->
+
+    </main>
+
     <footer>
     &copy; Хамитов Глеб, 2026 г.
     </footer>

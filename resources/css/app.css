@@ -13,3 +13,21 @@
 body{
     background: lime;
 }
+  .product-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-wrap: wrap;
+  }
+
+  .product-card {
+    background: #f0f0f0;
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+
+  }
+
+  .product-card img {
+      height: auto;
+  }
